@@ -1,0 +1,21 @@
+print("Введите  количество билетов")
+ticket_num: int = int(input())
+
+print("укажите возраст")
+age: int = int(input())
+price = int
+
+
+def ticket_price(age):
+    if age in range(0, 17):
+        var = price == 0
+        return price
+    elif age in range(18, 25):
+        var = price == 990*ticket_num
+        return price
+    else:
+        var = price == 1300*ticket_num
+        return price
+
+
+print(ticket_price(age))
